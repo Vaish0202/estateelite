@@ -9,7 +9,10 @@ import PrivateRoute from "./components/PrivateRoute"
 import CreateListing from "./pages/CreateListing"
 import UpdateListing from "./pages/UpdateListing"
 import Listing from "./pages/Listing"
-
+import Search from "./pages/Search"
+import Footer from "./components/footer/footer"
+// import Contact from "./components/Contact"
+// import ContactForm from "./components/ContactForm"
 export default function App() {
   return (
     <BrowserRouter>
@@ -19,6 +22,9 @@ export default function App() {
       <Route path="/sign-in" element={<SignIn />} />
       <Route path="/sign-up" element={<SignUp />} />
       <Route path="/about" element={<About />} />
+      <Route path="/search" element={<Search />} />
+      <Route path="/footer" element={<Footer />} />
+      {/* <Route path="/contact" element={<Contact />} /> */}
       <Route path="/listing/:listingId" element={<Listing />} />
 
       <Route element={<PrivateRoute />}  >
