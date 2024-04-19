@@ -26,7 +26,7 @@ export default function Header() {
       <div className="flex justify-between items-center max-w-7xl  mx-auto p-3">
         <Link to="/">
           <h1 className="font-bold text-sm  sm:text-xl flex flex-wrap ">
-            <img src="../public/logo.png" alt="" className="h-8 w-8" />
+            <img src="/logo.png" alt="" className="h-8 w-8" />
             <span className="text-slate-500">Estate</span>
             <span className="text-slate-700">Elite</span>
           </h1>
