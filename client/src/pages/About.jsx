@@ -25,7 +25,7 @@ export default function About() {
           </li>
         </ul>
         <p className='mb-4 text-slate-700'>Alternatively, you can use the contact form below to send us a message:</p>
-        {/* Add your contact form component here */}
+        
         <ContactForm />
     </div>
     </>

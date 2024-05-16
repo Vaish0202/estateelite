@@ -11,6 +11,7 @@ import UpdateListing from "./pages/UpdateListing"
 import Listing from "./pages/Listing"
 import Search from "./pages/Search"
 import Footer from "./components/footer/footer"
+// import Foot from "./components/Foot"
 // import Contact from "./components/Contact"
 // import ContactForm from "./components/ContactForm"
 export default function App() {
@@ -24,6 +25,7 @@ export default function App() {
       <Route path="/about" element={<About />} />
       <Route path="/search" element={<Search />} />
       <Route path="/footer" element={<Footer />} />
+      {/* <Route path="/foot" element={<Foot />} /> */}
       {/* <Route path="/contact" element={<Contact />} /> */}
       <Route path="/listing/:listingId" element={<Listing />} />
 

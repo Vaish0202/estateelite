@@ -6,7 +6,9 @@ import SwiperCore from 'swiper';
 import {Navigation} from 'swiper/modules';
 import 'swiper/css/bundle';
 import ListingItem from "../components/ListingItem";
-import Footer from "../components/footer/footer";
+import Foot from "../components/Foot";
+import Contact from "./Contact";
+// import Footer from "../components/footer/footer";
 
 export default function Home() {
   const [offerListings, setOfferListings] = useState([]);
@@ -144,6 +146,9 @@ export default function Home() {
         }
       </div>
       {/* <Footer></Footer> */}
+
+        {/* <Contact /> */}
+      <Foot />
     </div>
   );
 }

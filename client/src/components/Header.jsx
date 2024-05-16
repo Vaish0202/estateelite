@@ -61,9 +61,9 @@ export default function Header() {
               About
             </li>
           </Link>
-          {/* <Link to="/contact">
+          {/* {<Link to="/contact">
         <li className='hidden sm:inline text-slate-700 hover:underline'>Contact</li>
-        </Link> */}
+        </Link>} */}
           <Link to="/profile">
             {currentUser ? (
               <img
